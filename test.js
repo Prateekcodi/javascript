@@ -57,4 +57,47 @@ console.log(valueInNumber);
 // console.log(1+3+'3');
 // falsy values there are 5 and else are truthy
 // console.log(Boolean(null))
-console.log(Boolean("crore"))
+// console.log(Boolean("crore"))
+//challenge 3
+// § Data 1: Dolphins score 96, 108 and 89. Koalas score 88, 91 and 110
+// § Data Bonus 1: Dolphins score 97, 112 and 101. Koalas score 109, 95 and 123
+// § Data Bonus 2: Dolphins score 97, 112 and 101. Koalas score 109, 95 and 106
+/*
+let Dolphins1=97;
+let Dolphins2=112;
+let Dolphins3=101;
+let Koalas1=109;
+let Koalas2=95;
+let Koalas3=123;
+let team1average = (Dolphins1+Dolphins2+Dolphins3)/3;
+let team2average=(Koalas1+Koalas2+Koalas3)/3;
+console.log(team1average,team2average);
+if(team1average===team2average && team1average>=100 && team2average>=100){
+  console.log("draw!!");
+  
+}else if(team1average>team2average && team1average>=100 && team2average>=100){
+  console.log(`dalphins winner ${team1average}`);
+
+  
+}else{
+  if(team2average>=100){
+
+  
+  console.log(`kaolos winner ${team2average}`);
+}else{
+  console.log(`no one wins sorry!`);
+  
+}
+}
+*/
+ //Steven wants to build a very simple tip calculator for whenever he goes eating in a 
+// restaurant. In his country, it's usual to tip 15% if the bill value is between 50 and 
+// 300. If the value is different, the tip is 20%.
+
+//condition?true:false;
+let price=275;
+(price>300)?console.log(`you bill is ${price+(20/100)*price}`):(price<=300 && price>=50)?console.log(`$you bill is ${price+(15/100)*price}`):console.log(`you bill is ${price} saste log marjao`);
+
+
+
+
