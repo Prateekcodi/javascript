@@ -95,8 +95,8 @@ if(team1average===team2average && team1average>=100 && team2average>=100){
 // 300. If the value is different, the tip is 20%.
 
 //condition?true:false;
-let price=275;
-(price>300)?console.log(`you bill is ${price+(20/100)*price}`):(price<=300 && price>=50)?console.log(`$you bill is ${price+(15/100)*price}`):console.log(`you bill is ${price} saste log marjao`);
+// let price=275;
+// (price>300)?console.log(`you bill is ${price+(20/100)*price}`):(price<=300 && price>=50)?console.log(`you bill is ${price+(15/100)*price}`):console.log(`you bill is ${price} saste log marjao`);
 
 
 
