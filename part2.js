@@ -118,3 +118,31 @@ const array=[125,555,44];
 const total=[totalbill(array[0]),totalbill(array[1]),totalbill(array[2])];
 console.log(total);
 */
+/*
+const jonas={
+  firstname: "prateek",
+  lastname: "pal",
+  age: 20,
+  location: "kanpur",
+  friends: function(){
+    // return 40-age;
+    this.log=40-this.age
+
+    return this.log;
+  }
+};
+// console.log(jonas.location);
+// jonas.place="lucknow";
+// jonas["number"]=23234332;
+// const friend=jonas.friends;
+// // console.log(jonas);
+// console.log(`${jonas["firstname"]} has ${jonas["friends"].length} friends , his best friend is called ${jonas.friends[1]}`)
+// console.log(jonas["friends"](20));
+jonas.friends();
+console.log(jonas)
+*/
+
+const jonas={
+  birthday: 1991;
+  calcage
+}
