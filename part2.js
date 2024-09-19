@@ -143,6 +143,12 @@ console.log(jonas)
 */
 
 const jonas={
-  birthday: 1991;
-  calcage
-}
+  birthday: 1991,
+  calcage: function(){
+    // console.log(this);
+    // return 2037-this.birthday;
+    this.age=2037-this.birthday;
+    return this.age;
+  }
+};
+console.log(jonas.calcage());
