@@ -142,13 +142,28 @@ jonas.friends();
 console.log(jonas)
 */
 
-const jonas={
-  birthday: 1991,
-  calcage: function(){
-    // console.log(this);
-    // return 2037-this.birthday;
-    this.age=2037-this.birthday;
-    return this.age;
-  }
-};
-console.log(jonas.calcage());
+// const jonas={
+//   birthday: 1991,
+//   calcage: function(){
+//     // console.log(this);
+//     // return 2037-this.birthday;
+//     this.age=2037-this.birthday;
+//     return this.age;
+//   }
+// };
+// console.log(jonas.calcage());
+
+
+//loops 
+const joans=["gobhi","chalne","aalupudi","terimummy",1990-45,true];
+for(let i=1;i<=700;i++){
+  // console.log(`lifting weights replition ${i}`);
+  console.log(
+
+  );
+
+
+  +-
+  
+  
+}
